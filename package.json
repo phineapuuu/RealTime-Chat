@@ -1,0 +1,33 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.1",
+  "description": "<ul>\r   <li>Real-time chat is a dynamic website application.</li>\r   <li>It provides a secure and anonymous chat service that respects the user privacy.</li>\r   <li>It has been developed especially for the urban culture.</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phineapuuu/RealTime-Chat.git"
+  },
+  "keywords": [
+    "Exercise",
+    "training",
+    "chat",
+    "group",
+    "work"
+  ],
+  "author": "Math, Guillaume, Matth, Kiza",
+  "license": "OpenSource",
+  "bugs": {
+    "url": "https://github.com/phineapuuu/RealTime-Chat/issues"
+  },
+  "homepage": "https://github.com/phineapuuu/RealTime-Chat",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "nedb": "^1.8.0",
+    "socket.io": "^2.3.0"
+  }
+}
